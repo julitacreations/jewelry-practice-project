@@ -7,6 +7,8 @@ header:
     nav_link: /services
   - nav_title: Contact
     nav_link: /contact
+  - nav_title: Menu Item
+    nav_link: /menu item
 footer:
   - nav_title: Home
     nav_link: /
@@ -16,3 +18,13 @@ footer:
     nav_link: /services
   - nav_title: Contact
     nav_link: /contact
+  - nav_title: Menu Item
+    nav_link: /menu item
+  - nav_title: Menu Item
+    nav_link: /menu item
+  - nav_title: Menu Item
+    nav_link: /menu item
+  - nav_title: Menu Item
+    nav_link: /menu item
+  - nav_title: Menu Item
+    nav_link: /menu item
