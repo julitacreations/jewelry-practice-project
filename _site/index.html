@@ -162,16 +162,16 @@
     <!-- Hero banner -->
 <section class="bg-cover bg-center svh relative" style="background-image: url('/images/photo-1.jpg');">
   <div class="absolute bottom-8 left-8">
-    <h1 class="text-white text-4xl">Chromo-Dope</h1>
-    <a href="#" class="button text-white mt-4">Discover</a>
+    <h1 class="text-white text-2xl lg:text-4xl">Chromo-Dope</h1>
+    <a href="#" class="button text-white mt-2 lg:mt-4">Discover</a>
   </div>
 </section>
 
 
 
 <!-- Introduction text section -->
-<section class="px-20 py-24">
-  <div class="text-center w-1/2 mx-auto">
+<section class="px-10 lg:px-20 py-16 lg:py-24">
+  <div class="text-center w-2/3 lg:w-1/2 mx-auto">
     <h3 class="text-xl">Lorem ipsum dolor sit amet, consectetur a
       dipiscing elit. Cras vel enim in risus ultrices conv
       allis. Proinat tellus vitae urna congue sollicitudin sed sed mi. Phasellus aliquam, dui nec scelerisque blandit.</h3>
@@ -181,33 +181,33 @@
 
 
 <!-- Categories Section ------>
-<section class="px-28 pb-20">
-  <div class="grid grid-cols-2 gap-6">
+<section class="px-16 lg:px-28 pb-10 lg:pb-20">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     
     <a href="#" class="block">
-      <div class="h-80 overflow-hidden">
+      <div class="overflow-hidden"> <!-- removed a h-80 here, because it was creating empty space between image and description ------>
         <img src="/images/photo-1.jpg" alt="" class="min-h-64 object-cover object-center ">
       </div>
         <p class="uppercase text-xl mt-2">Earrings</p>
     </a>
     
     <a href="#" class="block">
-      <div class="h-80 overflow-hidden">
+      <div class="overflow-hidden"> <!-- removed a h-80 here, because it was creating empty space between image and description ------>
         <img src="/images/photo-2.jpg" alt="" class="min-h-64 object-cover object-center ">
       </div>
         <p class="uppercase text-xl mt-2">Rings</p>
     </a>
     
     <a href="#" class="block">
-      <div class="h-80 overflow-hidden">
+      <div class="overflow-hidden"> <!-- removed a h-80 here, because it was creating empty space between image and description ------>
         <img src="/images/photo-2.jpg" alt="" class="min-h-64 object-cover object-center ">
       </div>
         <p class="uppercase text-xl mt-2">Necklaces</p>
     </a>
     
     <a href="#" class="block">
-      <div class="h-80 overflow-hidden">
+      <div class="overflow-hidden"> <!-- removed a h-80 here, because it was creating empty space between image and description ------>
         <img src="/images/photo-1.jpg" alt="" class="min-h-64 object-cover object-center ">
       </div>
         <p class="uppercase text-xl mt-2">Bracelets</p>
@@ -219,12 +219,12 @@
 
 
 <!-- Feature section ------->
-<section class="grid grid-cols-2">
+<section class="grid grid-cols-1 md:grid-cols-2">
   <!-- Top-Left Image -->
-  <div class="bg-cover bg-center h-80" style="background-image: url('/images/photo-1.jpg');"></div>
+  <div class="bg-cover bg-center h-60 md:h-80" style="background-image: url('/images/photo-1.jpg');"></div>
 
   <!-- Top-Right Text -->
-  <div class="bg-green-100 flex items-end p-12">
+  <div class="bg-green-100 flex items-end p-12 h-60 md:h-80">
     <div class="text-left">
       <p class="text-gray-800 mb-8 text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus blanditiis iste fugiat! Non consequatur, aut quo eius commodi in ab quaerat ut dignissimos alias necessitatibus, beatae a vitae, deserunt vel.
@@ -234,19 +234,19 @@
   </div>
 
   <!-- Bottom-Left Image -->
-  <div class="bg-purple-100 flex justify-center items-center">
+  <div class="bg-purple-100 flex justify-center items-center h-60 md:h-80 hidden md:block">
     <img src="/images/photo-2.jpg" alt="" class="w-1/2 object-cover object-center aspect-square">
   </div>
 
   <!-- Bottom-Right Image -->
-  <div class="bg-cover bg-center h-80" style="background-image: url('/images/photo-1.jpg');"></div>
+  <div class="bg-cover bg-center h-60 md:h-80" style="background-image: url('/images/photo-1.jpg');"></div>
 </section>
 
 
 <!--SHOP section -->
-<section class="py-16 px-8">
+<section class="py-12 md:py-16 px-8">
   <h2 class="text-2xl mb-4">Shop New In</h2>
-   <div class="grid md:grid-cols-4 grid-cols-2 gap-6">
+   <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
      
     
     <!--Tile 1-->
