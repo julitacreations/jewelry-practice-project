@@ -170,8 +170,8 @@
 
 
 <!-- Introduction text section -->
-<section class="px-10 lg:px-20 py-16 lg:py-24">
-  <div class="text-center w-2/3 lg:w-1/2 mx-auto">
+<section class="px-10 lg:px-20 py-16 lg:py-24 min-h-70 flex items-center justify-center">
+  <div class="text-center md:w-2/3 lg:w-[40%] mx-auto">
     <h3 class="text-xl">Lorem ipsum dolor sit amet, consectetur a
       dipiscing elit. Cras vel enim in risus ultrices conv
       allis. Proinat tellus vitae urna congue sollicitudin sed sed mi. Phasellus aliquam, dui nec scelerisque blandit.</h3>
@@ -181,34 +181,34 @@
 
 
 <!-- Categories Section ------>
-<section class="px-16 lg:px-28 pb-10 lg:pb-20">
+<section class="px-8 lg:px-28 pb-10 lg:pb-20">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     
     <a href="#" class="block">
       <div class="overflow-hidden"> <!-- removed a h-80 here, because it was creating empty space between image and description ------>
-        <img src="/images/photo-1.jpg" alt="" class="min-h-64 object-cover object-center ">
+        <img src="/images/photo-1.jpg" alt="" class="h-90 w-full object-cover object-center ">
       </div>
         <p class="uppercase text-xl mt-2">Earrings</p>
     </a>
     
     <a href="#" class="block">
       <div class="overflow-hidden"> <!-- removed a h-80 here, because it was creating empty space between image and description ------>
-        <img src="/images/photo-2.jpg" alt="" class="min-h-64 object-cover object-center ">
+        <img src="/images/photo-2.jpg" alt="" class="h-90 w-full object-cover object-center ">
       </div>
         <p class="uppercase text-xl mt-2">Rings</p>
     </a>
     
     <a href="#" class="block">
       <div class="overflow-hidden"> <!-- removed a h-80 here, because it was creating empty space between image and description ------>
-        <img src="/images/photo-2.jpg" alt="" class="min-h-64 object-cover object-center ">
+        <img src="/images/photo-2.jpg" alt="" class="h-90 w-full object-cover object-center ">
       </div>
         <p class="uppercase text-xl mt-2">Necklaces</p>
     </a>
     
     <a href="#" class="block">
       <div class="overflow-hidden"> <!-- removed a h-80 here, because it was creating empty space between image and description ------>
-        <img src="/images/photo-1.jpg" alt="" class="min-h-64 object-cover object-center ">
+        <img src="/images/photo-1.jpg" alt="" class="h-90 w-full object-cover object-center ">
       </div>
         <p class="uppercase text-xl mt-2">Bracelets</p>
     </a>
@@ -221,10 +221,10 @@
 <!-- Feature section ------->
 <section class="grid grid-cols-1 md:grid-cols-2">
   <!-- Top-Left Image -->
-  <div class="bg-cover bg-center h-60 md:h-80" style="background-image: url('/images/photo-1.jpg');"></div>
+  <div class="bg-cover bg-center h-60 md:h-screen" style="background-image: url('/images/photo-1.jpg');"></div>
 
   <!-- Top-Right Text -->
-  <div class="bg-green-100 flex items-end p-12 h-60 md:h-80">
+  <div class="bg-green-100 flex items-end py-12 px-5 h-60 md:h-screen border border-light-gray">
     <div class="text-left">
       <p class="text-gray-800 mb-8 text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus blanditiis iste fugiat! Non consequatur, aut quo eius commodi in ab quaerat ut dignissimos alias necessitatibus, beatae a vitae, deserunt vel.
@@ -234,12 +234,12 @@
   </div>
 
   <!-- Bottom-Left Image -->
-  <div class="bg-purple-100 flex justify-center items-center h-60 md:h-80 hidden md:block">
-    <img src="/images/photo-2.jpg" alt="" class="w-1/2 object-cover object-center aspect-square">
+  <div class="bg-purple-100 md-flex justify-center items-center h-60 md:h-screen hidden">
+    <img src="/images/photo-2.jpg" alt="" class="w-1/2 object-cover object-center h-60">
   </div>
 
   <!-- Bottom-Right Image -->
-  <div class="bg-cover bg-center h-60 md:h-80" style="background-image: url('/images/photo-1.jpg');"></div>
+  <div class="bg-cover bg-center h-60 md:h-screen" style="background-image: url('/images/photo-1.jpg');"></div>
 </section>
 
 
@@ -251,8 +251,8 @@
     
     <!--Tile 1-->
     <a href="#" class="block">
-      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square"> 
-      <div class="flex justify-between items-center mt-1">
+      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square border border-yellow-50"> 
+      <div class="md:flex justify-between items-center mt-1">
         <h4>Product Title 1</h4> 
         <p>£Price</p> 
       </div>
@@ -260,8 +260,8 @@
     
     <!--Tile 1-->
     <a href="#" class="block">
-      <img src="/images/photo-2.jpg" alt="" class="object-cover object-center aspect-square"> 
-      <div class="flex justify-between items-center mt-1">
+      <img src="/images/photo-2.jpg" alt="" class="object-cover object-center aspect-square border border-yellow-50"> 
+      <div class="md:flex justify-between items-center mt-1">
         <h4>Product Title 2</h4> 
         <p>£Price</p> 
       </div>
@@ -269,8 +269,8 @@
     
     <!--Tile 1-->
     <a href="#" class="block">
-      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square"> 
-      <div class="flex justify-between items-center mt-1">
+      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square border border-yellow-50"> 
+      <div class="md:flex justify-between items-center mt-1">
         <h4>Product Title 1</h4> 
         <p>£Price</p> 
       </div>
@@ -278,8 +278,8 @@
     
     <!--Tile 1-->
     <a href="#" class="block">
-      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square"> 
-      <div class="flex justify-between items-center mt-1">
+      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square border border-yellow-50"> 
+      <div class="md:flex justify-between items-center mt-1">
         <h4>Product Title 1</h4> 
         <p>£Price</p> 
       </div>
@@ -287,8 +287,8 @@
     
     <!--Tile 1-->
     <a href="#" class="block">
-      <img src="/images/photo-2.jpg" alt="" class="object-cover object-center aspect-square"> 
-      <div class="flex justify-between items-center mt-1">
+      <img src="/images/photo-2.jpg" alt="" class="object-cover object-center aspect-square border border-yellow-50"> 
+      <div class="md:flex justify-between items-center mt-1">
         <h4>Product Title 2</h4> 
         <p>£Price</p> 
       </div>
@@ -296,8 +296,8 @@
     
     <!--Tile 1-->
     <a href="#" class="block">
-      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square"> 
-      <div class="flex justify-between items-center mt-1">
+      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square border border-yellow-50"> 
+      <div class="md:flex justify-between items-center mt-1">
         <h4>Product Title 1</h4> 
         <p>£Price</p> 
       </div>
@@ -305,8 +305,8 @@
     
     <!--Tile 1-->
     <a href="#" class="block">
-      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square"> 
-      <div class="flex justify-between items-center mt-1">
+      <img src="/images/photo-1.jpg" alt="" class="object-cover object-center aspect-square border border-yellow-50"> 
+      <div class="md:flex justify-between items-center mt-1">
         <h4>Product Title 1</h4> 
         <p>£Price</p> 
       </div>
@@ -314,8 +314,8 @@
     
     <!--Tile 1-->
     <a href="#" class="block">
-      <img src="/images/photo-2.jpg" alt="" class="object-cover object-center aspect-square"> 
-      <div class="flex justify-between items-center mt-1">
+      <img src="/images/photo-2.jpg" alt="" class="object-cover object-center aspect-square border border-yellow-50"> 
+      <div class="md:flex justify-between items-center mt-1">
         <h4>Product Title 2</h4> 
         <p>£Price</p> 
       </div>
